@@ -99,3 +99,15 @@
 }
 
 /*end of footer container*/
+
+/*new elements styles*/
+.greeting-p {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  margin-bottom: 10vh;
+}
+
+.greeting-p span {
+  color: red;
+}
