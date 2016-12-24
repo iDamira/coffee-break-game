@@ -64,6 +64,23 @@
   flex-direction: column;
 }
 
+.start-game-btn {
+  display: none;
+}
+
+/*greeting p element*/
+.greeting-p {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  margin-bottom: 10vh;
+}
+
+.greeting-p span {
+  color: red;
+}
+/*end of greeting p element*/
+
 .main-container-right {
   background-color: #aaa;
   width: 40vw;
@@ -82,7 +99,6 @@
   flex-direction: column;
 }
 
-
 .info-container h3 {
   margin-top: 5vh;
 }
@@ -100,14 +116,4 @@
 
 /*end of footer container*/
 
-/*new elements styles*/
-.greeting-p {
-  text-align: center;
-  color: white;
-  font-family: sans-serif;
-  margin-bottom: 10vh;
-}
 
-.greeting-p span {
-  color: red;
-}

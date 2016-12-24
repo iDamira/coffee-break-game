@@ -1,0 +1,93 @@
+.gp-main-container {
+  height: 100vh;
+  background-color: gery;
+  display: flex;
+}
+
+.gp-mc-left {
+  width: 85vw;
+  background-image: url("../media/01.jpg");
+  background-size: cover;
+/*  border: 1vw double #FAA820;*/
+  box-sizing: border-box;
+  border: 10px ridge #bc7e00;
+  background-color: #2C2A33;
+}
+
+.score-time-container {
+  height: 10vh;
+/*  border: 1px dashed red;*/
+}
+
+.gp-mc-right {
+  width: 15vw;
+  box-sizing: border-box;
+/*  border: 1vh ridge #bc7e00;*/
+}
+
+.gp-navbar {
+  height: 20vh;
+  background-color: #2C2A33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.gp-navbar button {
+  margin: 1vh;
+  padding: 10px;
+  border: 1px solid #BFB5AF;
+  border-radius: 5%;
+  background-color: #3F3D45;
+  color: #ECE2D0;
+  box-shadow: inset 0px 0px 57px -8px rgba(33,124,235,1);
+  box-sizing: border-box;
+}
+
+.gp-navbar button:hover {
+  background-color: #AD343E;
+  border: 1px solid #BFB5AF;
+  box-shadow: inset 0px 0px 16px -1px rgba(31,3,2,1);
+}
+
+.gp-game-log-container {
+  height: 60vh;
+  background-color: #2C2A33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.items-list {
+  height: 50vh;
+  width: 11vw;
+  background-color: #AD343E;
+  box-shadow: inset 1px 2px 48px 10px rgba(3,3,0,1);
+  border: 5px ridge #bc7e00;
+  border-radius: 1%;
+}
+
+.gp-hint-container {
+  height: 20vh;
+  background-color: #2C2A33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gp-hint-container button {
+  width: 7vw;
+  padding: 20px;
+  background-color: #3F3D45;
+  color: #bc7e00;
+  background-color: #AD343E;
+  box-shadow: inset 0px 0px 16px -1px rgba(31,3,2,1);
+  border: 5px ridge #bc7e00;
+  border-radius: 20%;
+}
+
+.gp-hint-container button:hover {
+  box-shadow: inset 1px 2px 48px 1px rgba(33,124,235,1);
+}
+
